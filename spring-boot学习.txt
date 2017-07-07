@@ -3,3 +3,4 @@
 Application -启动类 要放在pom.xml配置文件中对应的包名下 否则其他组件扫描不到
 TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); 把这句话放到try...catch,,,中就行了 哪里异常滚哪里 再也不用担心事物失控了 
 @Async所修饰的函数不要定义为static类型，这样异步调用不会生效  定时和异步 都需要在主程序(Application那个类加上响应的注解才能使用)
+后续内容更加精彩
